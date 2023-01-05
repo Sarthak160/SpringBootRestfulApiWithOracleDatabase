@@ -1,0 +1,76 @@
+version: api.keploy.io/v1beta1
+kind: Http
+name: test-4
+spec:
+    metadata: {}
+    req:
+        method: POST
+        proto_major: 1
+        proto_minor: 1
+        url: /users/user/create
+        header:
+            accept: '*/*'
+            accept-encoding: gzip, deflate, br
+            cache-control: no-cache
+            connection: keep-alive
+            content-length: "73"
+            content-type: application/json
+            host: localhost:8080
+            user-agent: PostmanRuntime/7.29.2
+        body: |-
+            {
+                "name": "Raghav Kapoor",
+                "age": null,
+                "dob": "1990-03-16"
+            }
+    resp:
+        status_code: 200
+        header: {}
+        body: ""
+        status_message: OK
+        proto_major: 1
+        proto_minor: 1
+    objects:
+        - type: error
+          data: H4sIAAAAAAAA/wEAAP//AAAAAAAAAAA=
+    mocks:
+        - test-4-0
+    assertions:
+        noise: []
+    created: 1671793937
+---
+version: api.keploy.io/v1beta1
+kind: Http
+name: test-4
+spec:
+    metadata: {}
+    req:
+        method: GET
+        proto_major: 1
+        proto_minor: 1
+        url: /users/id/2
+        header:
+            accept: '*/*'
+            accept-encoding: gzip, deflate, br
+            cache-control: no-cache
+            connection: keep-alive
+            host: localhost:8080
+            user-agent: PostmanRuntime/7.29.2
+        body: ""
+    resp:
+        status_code: 200
+        header: {}
+        body: '{"id":2,"name":"rhubhamJain123","age":31,"dob":"2000-08-16"}'
+        status_message: OK
+        proto_major: 1
+        proto_minor: 1
+    objects:
+        - type: error
+          data: H4sIAAAAAAAA/wEAAP//AAAAAAAAAAA=
+    mocks:
+        - test-4-0
+    assertions:
+        noise:
+            - body.age
+            - body.dob
+    created: 1671795572

@@ -1,0 +1,33 @@
+version: api.keploy.io/v1beta1
+kind: Http
+name: a5e664fb-1cb3-4218-92c3-a41251811991
+spec:
+    metadata: {}
+    req:
+        method: POST
+        proto_major: 1
+        proto_minor: 1
+        url: /users/delete/id/3
+        header:
+            accept: '*/*'
+            accept-encoding: gzip, deflate, br
+            cache-control: no-cache
+            connection: keep-alive
+            content-length: "0"
+            host: localhost:8080
+            user-agent: PostmanRuntime/7.29.2
+        body: ""
+    resp:
+        status_code: 405
+        header:
+            Allow: DELETE
+        body: ""
+        status_message: Method Not Allowed
+        proto_major: 1
+        proto_minor: 1
+    objects:
+        - type: error
+          data: H4sIAAAAAAAA/wEAAP//AAAAAAAAAAA=
+    assertions:
+        noise: []
+    created: 1668656860

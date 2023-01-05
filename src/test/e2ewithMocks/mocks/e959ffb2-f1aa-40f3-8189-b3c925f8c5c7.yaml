@@ -1,0 +1,38 @@
+version: api.keploy.io/v1beta1
+kind: SQL
+name: e959ffb2-f1aa-40f3-8189-b3c925f8c5c7-0
+spec:
+    type: TABLE
+    table:
+        cols:
+            - name: id1_0_
+              type: Integer
+              precision: 0
+              scale: 0
+            - name: age2_0_
+              type: Integer
+              precision: 0
+              scale: 0
+            - name: date_of_birth3_0_
+              type: Date
+              precision: 0
+              scale: 0
+            - name: name4_0_
+              type: String
+              precision: 0
+              scale: 0
+        rows:
+            - '[1,30,2000-08-16,rhubhamJain123]'
+            - '[2,31,2000-08-16,rhubhamJain123]'
+            - '[3,32,2000-08-16,rhubhamJain123]'
+            - '[4,32,2000-08-16,Shashank Kumar Pandey]'
+            - '[5,22,2000-08-16,Shashank Kumar Pandey]'
+            - '[6,22,2000-08-16,Shashank Kumar Pandey]'
+            - '[7,22,2000-08-16,Shashank Kumar Pandey]'
+            - '[8,22,2000-08-16,Shashank Kumar Pandey]'
+            - '[9,22,2000-08-16,Shashank Kumar Pandey]'
+            - '[10,22,2000-08-16,Shashank Kumar Pandey]'
+            - '[11,22,2000-08-16,Shashank Kumar Pandey]'
+            - '[12,22,2000-08-16,Shashank Kumar Pandey]'
+            - '[13,22,2000-08-16,Shashank Kumar Pandey]'
+    int: 0

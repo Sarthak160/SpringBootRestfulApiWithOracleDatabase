@@ -1,0 +1,40 @@
+version: api.keploy.io/v1beta1
+kind: Http
+name: e9d8a389-111e-4ac2-b723-d0a3ceadf2a2
+spec:
+    metadata: {}
+    req:
+        method: GET
+        proto_major: 1
+        proto_minor: 1
+        url: /users/allusers
+        header:
+            accept: '*/*'
+            accept-encoding: gzip, deflate, br
+            cache-control: no-cache
+            connection: keep-alive
+            content-length: "67"
+            content-type: application/json
+            host: localhost:8080
+            user-agent: PostmanRuntime/7.29.2
+        body: |-
+            {
+                "name":"shubhamikk",
+                "age":"22",
+                "dob":"2000-08-16"
+            }
+    resp:
+        status_code: 200
+        header: {}
+        body: '[{"id":1,"name":"ritok","age":22,"dob":"2000-08-16"},{"id":2,"name":"ritok","age":22,"dob":"2000-08-16"},{"id":3,"name":"ritok","age":22,"dob":"2000-08-16"},{"id":21,"name":"ritik","age":22,"dob":"2000-08-16"},{"id":22,"name":"ritika","age":22,"dob":"2000-08-16"},{"id":41,"name":"shubhamikk","age":22,"dob":"2000-08-16"}]'
+        status_message: OK
+        proto_major: 1
+        proto_minor: 1
+    objects:
+        - type: error
+          data: H4sIAAAAAAAA/wEAAP//AAAAAAAAAAA=
+    mocks:
+        - e9d8a389-111e-4ac2-b723-d0a3ceadf2a2-0
+    assertions:
+        noise: []
+    created: 1667973339

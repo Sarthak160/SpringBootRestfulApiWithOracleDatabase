@@ -1,0 +1,35 @@
+version: api.keploy.io/v1beta1
+kind: SQL
+name: beef3e9a-6b76-42d7-b419-a8d092d1cb3d-0
+spec:
+    metadata:
+        method: getLong()
+    type: INT
+    table:
+        cols: []
+        rows: []
+    int: 14
+---
+version: api.keploy.io/v1beta1
+kind: SQL
+name: beef3e9a-6b76-42d7-b419-a8d092d1cb3d-1
+spec:
+    metadata:
+        method: getLong()
+    type: INT
+    table:
+        cols: []
+        rows: []
+    int: 15
+---
+version: api.keploy.io/v1beta1
+kind: SQL
+name: beef3e9a-6b76-42d7-b419-a8d092d1cb3d-2
+spec:
+    metadata:
+        method: getLong()
+    type: INT
+    table:
+        cols: []
+        rows: []
+    int: 16

@@ -1,7 +1,7 @@
 http://localhost:8080/users/user/create
-http://localhost:8080/users/multiUsers/create
+http://localhost:8080/users/multiUsers/create -
 http://localhost:8080/users/id/1
 http://localhost:8080/users/allusers
 http://localhost:8080/users/id/1/newAge/60
-http://localhost:8080/users/delete/id/3
+http://localhost:8080/users/delete/id/3 -
 

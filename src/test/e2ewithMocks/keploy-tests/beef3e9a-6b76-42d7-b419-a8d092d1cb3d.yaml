@@ -1,0 +1,53 @@
+version: api.keploy.io/v1beta1
+kind: Http
+name: beef3e9a-6b76-42d7-b419-a8d092d1cb3d
+spec:
+    metadata: {}
+    req:
+        method: POST
+        proto_major: 1
+        proto_minor: 1
+        url: /users/multiUsers/create
+        header:
+            accept: '*/*'
+            accept-encoding: gzip, deflate, br
+            cache-control: no-cache
+            connection: keep-alive
+            content-length: "237"
+            content-type: application/json
+            host: localhost:8080
+            user-agent: PostmanRuntime/7.29.2
+        body: |
+            [{
+                "name":"Shashank Kumar Pandey",
+                "age":"22",
+                "dob":"2000-08-16"
+            },
+            {
+                "name":"Dilip Kumar Pandey",
+                "age":"45",
+                "dob":"2000-08-16"
+            },
+            {
+                "name":"Ritikp Kumar Pandey",
+                "age":"45",
+                "dob":"2000-08-16"
+            }
+            ]
+    resp:
+        status_code: 200
+        header: {}
+        body: ""
+        status_message: OK
+        proto_major: 1
+        proto_minor: 1
+    objects:
+        - type: error
+          data: H4sIAAAAAAAA/wEAAP//AAAAAAAAAAA=
+    mocks:
+        - beef3e9a-6b76-42d7-b419-a8d092d1cb3d-0
+        - beef3e9a-6b76-42d7-b419-a8d092d1cb3d-1
+        - beef3e9a-6b76-42d7-b419-a8d092d1cb3d-2
+    assertions:
+        noise: []
+    created: 1668655630

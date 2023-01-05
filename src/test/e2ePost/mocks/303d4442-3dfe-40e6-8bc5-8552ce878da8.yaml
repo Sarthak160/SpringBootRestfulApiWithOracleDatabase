@@ -1,0 +1,9 @@
+version: api.keploy.io/v1beta1
+kind: SQL
+name: 303d4442-3dfe-40e6-8bc5-8552ce878da8-0
+spec:
+    type: INT
+    table:
+        cols: []
+        rows: []
+    int: 11

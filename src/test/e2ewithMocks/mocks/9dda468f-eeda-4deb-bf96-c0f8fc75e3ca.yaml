@@ -1,0 +1,28 @@
+version: api.keploy.io/v1beta1
+kind: SQL
+name: 9dda468f-eeda-4deb-bf96-c0f8fc75e3ca-0
+spec:
+    type: TABLE
+    table:
+        cols:
+            - name: id1_0_
+              type: Integer
+              precision: 0
+              scale: 0
+            - name: age2_0_
+              type: Integer
+              precision: 0
+              scale: 0
+            - name: date_of_birth3_0_
+              type: Date
+              precision: 0
+              scale: 0
+            - name: name4_0_
+              type: String
+              precision: 0
+              scale: 0
+        rows:
+            - '[1,30,2000-08-16,rhubhamJain123]'
+            - '[2,31,2000-08-16,rhubhamJain123]'
+            - '[3,32,2000-08-16,rhubhamJain123]'
+    int: 0

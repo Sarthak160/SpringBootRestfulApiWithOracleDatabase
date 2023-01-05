@@ -1,0 +1,38 @@
+version: api.keploy.io/v1beta1
+kind: Http
+name: 6b78eee7-e410-43a1-a36d-8cb3939cac9c
+spec:
+    metadata: {}
+    req:
+        method: POST
+        proto_major: 1
+        proto_minor: 1
+        url: /users/user/create
+        header:
+            accept: '*/*'
+            accept-encoding: gzip, deflate, br
+            cache-control: no-cache
+            connection: keep-alive
+            content-length: "67"
+            content-type: application/json
+            host: localhost:8080
+            user-agent: PostmanRuntime/7.29.2
+        body: |-
+            {
+                "name":"shubhamikk",
+                "age":"22",
+                "dob":"2000-08-16"
+            }
+    resp:
+        status_code: 200
+        header: {}
+        body: ""
+        status_message: OK
+        proto_major: 1
+        proto_minor: 1
+    objects:
+        - type: error
+          data: H4sIAAAAAAAA/wEAAP//AAAAAAAAAAA=
+    assertions:
+        noise: []
+    created: 1667972837

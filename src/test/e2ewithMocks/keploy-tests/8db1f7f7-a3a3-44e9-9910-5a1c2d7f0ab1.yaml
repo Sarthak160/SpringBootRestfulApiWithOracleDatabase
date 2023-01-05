@@ -1,0 +1,33 @@
+version: api.keploy.io/v1beta1
+kind: Http
+name: 8db1f7f7-a3a3-44e9-9910-5a1c2d7f0ab1
+spec:
+    metadata: {}
+    req:
+        method: DELETE
+        proto_major: 1
+        proto_minor: 1
+        url: /users/delete/id/3
+        header:
+            accept: '*/*'
+            accept-encoding: gzip, deflate, br
+            cache-control: no-cache
+            connection: keep-alive
+            host: localhost:8080
+            user-agent: PostmanRuntime/7.29.2
+        body: ""
+    resp:
+        status_code: 200
+        header: {}
+        body: ""
+        status_message: OK
+        proto_major: 1
+        proto_minor: 1
+    objects:
+        - type: error
+          data: H4sIAAAAAAAA/wEAAP//AAAAAAAAAAA=
+    mocks:
+        - 8db1f7f7-a3a3-44e9-9910-5a1c2d7f0ab1-0
+    assertions:
+        noise: []
+    created: 1668656869
